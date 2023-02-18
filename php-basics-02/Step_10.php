@@ -1,9 +1,9 @@
 <?php
 function isPalindrome ($string){
     if ($string == strrev($string)){
-        return "$string is a palindrome";
+        return 1;
     } else {
-        return "$string is not a palindrome";
+        return 0;
     }
 }
 echo isPalindrome("madam") ."\n";
